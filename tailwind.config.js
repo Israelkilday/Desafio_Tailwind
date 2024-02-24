@@ -11,13 +11,19 @@ module.exports = {
       },
       keyframes: {
         floatRight: {
-          "0%": { transform: "translatey(0px)" },
-          "50%": { transform: "translatey(8px)" },
-          "100%": { transform: "translatey(0px)" },
+          "0%": { transform: "translatex(0px)" },
+          "50%": { transform: "translatex(8px)" },
+          "100%": { transform: "translatex(0px)" },
+        },
+        opacityPulse: {
+          "0%": {opacity: 1},
+          "50%": {opacity: 0.2},
+          "100%": {opacity: 1},
         }
       },
       animation: {
-        floatRight: "floatRight 2.5s infinite"
+        floatRight: "floatRight 2s infinite",
+        opacityPulse: "opacityPulse 2s infinite"
       }
     },
   },
