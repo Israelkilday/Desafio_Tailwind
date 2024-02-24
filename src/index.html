@@ -13,39 +13,44 @@
     <title>DESAFIO_TAILWIND</title>
 </head>
 
-<body class="w-full h-full">
+<body class="w-full h-full overflow-hidden">
     <div class="flex items-center justify-center w-full h-screen bg-slate-300 p-3">
-        <main class="bg-white h-[440px] w-full max-w-4xl shadow-lg flex flex-col md:flex-row items-center justify-center">
+        <main
+            class="bg-white h-[440px] w-full max-w-4xl shadow-lg flex flex-col md:flex-row items-center justify-center relative">
+
             <div class="w-full md:w-1/2 h-full flex flex-col items-center justify-center">
                 <div class="w-full">
-                    <h3 class="hidden md:block text-sm ml-4 mt-4 font-bold">
+                    <h3 class="hidden md:block text-sm ml-4 mt-4 font-bold absolute top-0 left-0">
                         Sujeito Programador
                     </h3>
                 </div>
 
-                <div class="w-full flex items-center justify-center">
-                    <div class="mb-2">
-                        <h1 class="text-5xl font-bold mb-2 select-none">
+                <div class="w-full flex items-center justify-center group-[]:">
+                    <div class="mb-3">
+                        <h1 class="text-4xl font-bold mb-2 select-none">
                             Lançamento <br>
                             <p>Nike Air.</p>
-                        </h1>   
+                        </h1>
 
-                        <p class="mb-1">O Tenis do futuro</p>
+                        <p class="mb-1">O tenis do futuro</p>
 
                         <p class="mb-7">O futuro a um passo do seu alcançe!</p>
 
-                        <a href="#" class="font-bold bg-zinc-800 text-white py-2 px-5 border-2 border-zinc-800 hover:bg-white hover:text-zinc-800 duration-300">
+                        <a href="#"
+                            class="font-bold bg-zinc-800 text-white py-2 px-5 border-2 border-zinc-800 hover:bg-white hover:text-zinc-800 duration-300">
                             QUERO CONHECER
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class="h-full w-full flex items-center justify-center bg-bg_card_tenis bg-repeat bg-center">
-                
+            <div
+                class="h-full w-full md:w-1/2 flex items-center justify-center bg-bg_card_tenis bg-repeat bg-center bg-cover">
+                <img src="assets/tenis.png" alt="Tenis Nike Air"
+                    class="max-w-lg w-11/12 object-cover z-30 duration-300 hover:rotate-6 hover:scale-110 md:hover:scale-125">
             </div>
         </main>
     </div>
 </body>
-        
+
 </html>
