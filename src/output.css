@@ -791,6 +791,24 @@ video {
   animation: opacityPulse 2s infinite;
 }
 
+@keyframes floatLeft {
+  0% {
+    transform: translatex(0px);
+  }
+
+  50% {
+    transform: translatex(-8px);
+  }
+
+  100% {
+    transform: translatex(0px);
+  }
+}
+
+.group:hover .group-hover\:animate-floatLeft {
+  animation: floatLeft 2s infinite;
+}
+
 @media (min-width: 768px) {
   .md\:block {
     display: block;
