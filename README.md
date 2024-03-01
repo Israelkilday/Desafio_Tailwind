@@ -3,7 +3,7 @@
  Este é um projeto de um desafio do curso de TailwindCSS onde tive como objetivo principal  
  foi praticar e consolidar os conceitos de animações no TailwindCSS, além de Classes  
  Utilitárias(Utility-First), Configuração Extensível, Mobile First, Variáveis,     
- Temas(Themes), Plugins, Hover, Focus, Active e etc. Estou ancioso para usar estes  
+ Temas(Themes), Plugins, Hover, Focus, Active e etc. Estou ansioso para usar estes  
  conhecimentos em mais projetos pessoais futuros!
  </div>
 
